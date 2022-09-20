@@ -15,7 +15,7 @@
 
 body{
     width: 100vw;
-    background-color: #8EC5FC;
+    background: linear-gradient(to right, #000000, #434343);
     overflow-x: hidden;
     opacity: .9;
 }
@@ -61,29 +61,13 @@ img{
     height: 200px;
     
 }
-.fa-lemon{
-    color:#FFD43B;
-}
-
-.fa-dog{
-    color: #3BDBFF;
-}
-.fa-mask{
-    color: #ff3b79;
-}
-.fa-file-lines{
-    color: #3bffc1;
-}
-.fa-pizza-slice{
-    color: #c13bff;
-}
 .card{
     margin-bottom: 10rem!important;
 }
-.card i{
+.card img{
     transition:all .5s ease-in-out;
 }
-.card:hover i,.card:hover h2{
+.card:hover img,.card:hover h2{
     transform: scale(1.2);
 }
 h2{
@@ -147,14 +131,15 @@ iframe{
     font-size: 1.8rem;
     width: 40px;
 }
-.i{
+.img{
     transition:.3s ease-in-out;
 }
-.i:hover{
+.img:hover{
     transform: scale(1.2);
 }
-.dark{
-    background: linear-gradient(to right, #000000, #434343); 
+.light{
+    
+    background-color: #8EC5FC;
 }
 .cards-contract{
     height: 60px !important;

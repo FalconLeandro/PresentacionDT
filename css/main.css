@@ -985,25 +985,6 @@ footer .credits a span {
   color: yellow;
 }
 
-button {
-  box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
-  border-radius: 50px;
-  background: #f3603b;
-  color: white;
-  padding: 13px 30px;
-  font-size: 0.7rem;
-  border: none;
-  height: fit-content;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-
-button:hover {
-  background-color: #fa8e75;
-  color: white;
-  transform: scale(1.05);
-}
-
 :root {
   --main:#4fe1d0;
   --secondary:#040404;

@@ -2,7 +2,7 @@
 function bgChanger() {
     
     var label = document.getElementById("label1");
-    const tema = document.body.classList.toggle('dark');
+    const tema = document.body.classList.toggle('light');
 
     if (tema) {
         label.innerHTML='<i class="fas fa-sun i"></i>'
