@@ -1,4 +1,4 @@
-const hi=`<h2 id="hi">Hi! I am Lea</h2>`;
+const hi=`<h2 id="hi">Hola! Somos Construite.com</h2>`;
 
 const p1=`<p>Desarrollamos esta aplicación para dotar de herramientas y de una guía completísima
  a las familias argentinas con el objetivo de construir su casa centralizando todas las necesidades del recorrido</p>`;
@@ -14,7 +14,7 @@ var i = 0;
 
 texto.addEventListener("click", function( event ) {
    
-  if (i<=2) {
+  if (i<=3) {
     texto.innerHTML=arrayText[i];
     i++;
   } else {
