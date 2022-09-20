@@ -58,6 +58,9 @@
   right: 0;
   border-top: 6px solid var(--tertiary);
 }
+.banner .banner-content .banner-titulo div h1 span {
+  color: var(--main);
+}
 .banner .banner-content .banner-titulo .wordChanger {
   display: flex;
   margin-top: 20px;
@@ -99,7 +102,7 @@
   animation: cambiar 15s infinite;
   animation-delay: 0.7s;
   text-align: center;
-  color: var(--tertiary);
+  color: var(--main);
 }
 
 .content {
@@ -211,7 +214,7 @@
 .main-header .logo span,
 .main-header a span {
   text-transform: none;
-  color: gray;
+  color: white;
 }
 .main-header i {
   color: var(--main);
@@ -535,7 +538,7 @@
   height: 100%;
 }
 .skillset .hardskills-container {
-  padding: 10%;
+  padding: 10% 20%;
 }
 .skillset .hardskills-container .hardskills {
   display: grid;
@@ -547,7 +550,7 @@
   position: relative;
   display: inline-block;
   z-index: 2;
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 .skillset .hardskills-container .hardskills div .iconoskill {
   font-size: 3rem;
@@ -960,9 +963,9 @@ footer .credits a span {
 }
 
 .tarjeta img {
-  width: 70px;
+  width: 100px;
   position: absolute;
-  bottom: calc(100% - 35px);
+  bottom: calc(100% - 50px);
 }
 
 .tarjeta p {
