@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body id="canvas">
+    <input type="checkbox" id="btn1" onclick="bgChanger()">
+    <label id="label1" for="btn1"><i class="fa-solid fa-moon i"></i></label>
+    <input type="checkbox" id="btn2" onclick="cardChanger()">
+    <label id="label2" for="btn2"><i class="fa-solid fa-sort i"></i></label>
+
+    <div id="particle-container"></div>
+    <script src="js/particles.js"></script>
+    
+    <h1>Nuestros <span id="end">Diseños</span></h1>
+    <div id="container">
+        <div class="card">
+            <h2>SteelFrame</h2>
+            <div>
+                <a target="_blank" href=""><img src="img/Perfiles-Steel-Framing6.jpg" alt=""></a>
+                <div class="tools-container tools1">
+                    <span>2 AMBIENTES</span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Tradicional</h2>
+            <div>
+                <a target="_blank" href=""><img src="img/fotos-fachadas-casas.webp" alt=""></a>
+                <div class="tools-container  tools2">
+                    <span>3 AMBIENTES</span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Sustentable</h2>
+            <div>
+                <a target="_blank" href=""><img src="img/mini-casa-construccion-sustentable.jpg" alt=""></a>
+                <div class="tools-container  tools3">
+                    <span>2 AMBIENTES</span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/bg-changer.js"></script>
+    
+</body>
+</html>
