@@ -1,7 +1,7 @@
 const hi=`<h2 id="hi">Hola! Somos MiVivienda.com</h2>`;
 
-const p1=`<p>Desarrollamos esta aplicación para dotar a las familias argentinas de una guía completísima
-  con el objetivo de lograr concretar el sueño de la casa propia, centralizando todas las necesidades del recorrido</p>`;
+const p1=`<p>Una aplicación web con la intencion de dotar a las familias de una guía completa para lograr el objetivo de construir la casa propia, 
+ centralizando todas las necesidades del recorrido</p>`;
 
 const p2=`<p>Nuestra misión: “Disminuir el déficit de vivienda en el planeta y promover su acceso igualitario”</p>`;
 
